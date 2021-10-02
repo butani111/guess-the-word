@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Scramble word</title>
+</head>
+
+<body>
+  <header>
+    <h1>Guess the word</h1>
+  </header>
+
+  <div class="main-card">
+
+    <p id="result-msg"></p>
+
+    <div class="card-title">
+      <p>Guess the word from:</p>
+      <p id="query-word">lehlo</p>
+    </div>
+
+    <input class="word-input" id="word-input" type="text" name="input-word" placeholder="Enter word here" autofocus>
+
+    <div class="btn-section">
+      <button class="btn change-word-btn" id="change-word-btn">New word</button>
+      <button class="btn submit-btn" id="submit-btn">Check</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
